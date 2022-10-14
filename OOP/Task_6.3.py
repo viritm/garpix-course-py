@@ -5,6 +5,7 @@ class Nikola:
             self.name = f"Я не {name},а Николай."
         else:
             self.name = name
+        self.age = age
 
 
 Nikolay = Nikola("Николай", 25)
